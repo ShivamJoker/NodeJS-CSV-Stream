@@ -16,5 +16,8 @@
     "knex": "^0.95.13",
     "pg": "^8.7.1",
     "pg-query-stream": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }

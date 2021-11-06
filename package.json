@@ -5,12 +5,15 @@
   "main": "index.js",
   "author": "shivamjoker <singhshivamkr@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "populate": "node populate_db.js"
+  },
   "dependencies": {
     "cli-progress": "^3.9.1",
     "faker": "^5.5.3",
     "fastify": "^3.23.0",
     "knex": "^0.95.13",
-    "ora": "^6.0.1",
     "pg": "^8.7.1",
     "pg-query-stream": "^4.2.1"
   }

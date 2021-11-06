@@ -16,7 +16,7 @@ const populate = async () => {
       table.string("email");
       table.string("city");
       table.string("phone");
-      table.timestamps(true, true);
+      table.timestamps(false, true);
     });
 
     console.log("--------- Populating 5M fake people 🤖 ---------");

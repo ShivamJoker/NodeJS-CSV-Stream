@@ -14,13 +14,14 @@ const setDownloadHeaders = (reply) => {
 const makeCSVheader = (obj) => Object.keys(obj).join(", ") + "\n";
 const makeCSVrow = (obj) => Object.values(obj).join(", ") + "\n";
 
-const limit = 1_000_000;
+const limit = 10_000;
 
 fastify.get("/", async (request, reply) => {
   try {
     const data = await db
       .select()
       .from("users")
+      .orderBy("id")
       .limit(request.query.limit ?? limit);
     setDownloadHeaders(reply);
 
@@ -41,6 +42,7 @@ fastify.get("/stream", (request, reply) => {
     const data = db
       .select()
       .from("users")
+      .orderBy("id")
       .limit(request.query.limit ?? limit)
       .stream();
 

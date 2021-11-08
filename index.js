@@ -21,7 +21,7 @@ fastify.get("/", async (request, reply) => {
     const data = await db
       .select()
       .from("users")
-      .orderBy("id")
+      // .orderBy("id")
       .limit(request.query.limit ?? limit);
     setDownloadHeaders(reply);
 
@@ -42,7 +42,7 @@ fastify.get("/stream", (request, reply) => {
     const data = db
       .select()
       .from("users")
-      .orderBy("id")
+      // .orderBy("id")
       .limit(request.query.limit ?? limit)
       .stream();
 

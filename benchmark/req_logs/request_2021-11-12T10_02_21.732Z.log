@@ -1,0 +1,3 @@
+{"level":30,"time":1636711341810,"pid":1983938,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1636711355453,"pid":1983938,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-1","req":{"method":"GET","url":"/stream?limit=5000000","hostname":"144.126.254.148","remoteAddress":"127.0.0.1","remotePort":43256},"msg":"incoming request"}
+{"level":30,"time":1636711546844,"pid":1983938,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-1","res":{"statusCode":200},"responseTime":191390.08814698458,"msg":"request completed"}

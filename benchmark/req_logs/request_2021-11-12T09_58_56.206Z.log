@@ -1,0 +1,9 @@
+{"level":30,"time":1636711136302,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1636711169085,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-1","req":{"method":"GET","url":"/?limit=100000","hostname":"144.126.254.148","remoteAddress":"127.0.0.1","remotePort":43244},"msg":"incoming request"}
+{"level":30,"time":1636711173490,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-1","res":{"statusCode":200},"responseTime":4404.47439801693,"msg":"request completed"}
+{"level":30,"time":1636711187930,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-2","req":{"method":"GET","url":"/stream?limit=100000","hostname":"144.126.254.148","remoteAddress":"127.0.0.1","remotePort":43248},"msg":"incoming request"}
+{"level":30,"time":1636711192340,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-2","res":{"statusCode":200},"responseTime":4409.867713034153,"msg":"request completed"}
+{"level":30,"time":1636711198470,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-3","req":{"method":"GET","url":"/?limit=500000","hostname":"144.126.254.148","remoteAddress":"127.0.0.1","remotePort":43250},"msg":"incoming request"}
+{"level":30,"time":1636711218272,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-3","res":{"statusCode":200},"responseTime":19801.137764036655,"msg":"request completed"}
+{"level":30,"time":1636711241745,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-4","req":{"method":"GET","url":"/stream?limit=500000","hostname":"144.126.254.148","remoteAddress":"127.0.0.1","remotePort":43252},"msg":"incoming request"}
+{"level":30,"time":1636711262893,"pid":1973421,"hostname":"nodejs-ubuntu-s-1vcpu-1gb-blr1-01","reqId":"req-4","res":{"statusCode":200},"responseTime":21147.728410959244,"msg":"request completed"}
